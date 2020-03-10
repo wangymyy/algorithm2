@@ -384,16 +384,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
 
 
     public static void main(String[] args) {
-        BinarySearchTree<String> tree = new BinarySearchTree<>();
 
-        tree.add("1234");
-        tree.add("4567");
-
-        tree.add("1");
-
-        System.out.println( tree.min());
-
-        System.out.println( tree.max());
     }
 
 }
